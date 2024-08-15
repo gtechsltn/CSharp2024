@@ -62,4 +62,37 @@ Console.WriteLine(numbers is [0 or 1, <= 2, >= 3]); // => True
 # 6 - Primary constructors
 
 ```
+namespace CodeSamples;
+
+public interface IDistanceCalculator
+{
+    Distance GetDistance();
+}
+
+public class Distance
+{
+}
+
+public class DistanceCalculator : IDistanceCalculator
+{
+    public Distance GetDistance()
+    {
+        return new Distance();
+    }
+}
+
+public class ExampleController(IDistanceCalculator service)
+{
+    public void TestPrimaryController()
+    {
+        service.GetDistance();
+    }
+}
+```
+
+# 7 - Collection Expressions
+
+```
+int[] numbers = [1, 2, 3, 4, 5];
+List<string> names = ["Binh", "Doan", "Cuong"];
 ```

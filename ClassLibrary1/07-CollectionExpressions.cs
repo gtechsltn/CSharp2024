@@ -4,7 +4,7 @@ public class CollectionExpressions
 {
     public void DeclareCollectionExpressions()
     {
-        int[] numbers = [1,2,3,4,5];
+        int[] numbers = [1, 2, 3, 4, 5];
         List<string> names = ["Binh", "Doan", "Cuong"];
         foreach (var number in numbers)
         {

@@ -1,7 +1,7 @@
 
 # 1 - File scoped namespace
 
-Before
+Before:
 ```
 namespace CodeSamples
 {
@@ -11,7 +11,7 @@ namespace CodeSamples
 }
 ```
 
-After
+After:
 ```
 namespace CodeSamples;
 public interface IShippingCalculator

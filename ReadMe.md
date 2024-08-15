@@ -48,3 +48,18 @@ Some should start at the first column.
 Some has "quoted text" in them.
 """;
 ``` 
+
+# 5 - List patterns
+
+```
+int[] numbers = { 1, 2, 3 };
+Console.WriteLine(numbers is [1, 2, 3]); // => True
+Console.WriteLine(numbers is [1, 2, 4]); // => False
+Console.WriteLine(numbers is [1, 2, 3, 4]); // => False
+Console.WriteLine(numbers is [0 or 1, <= 2, >= 3]); // => True
+```
+
+# 6 - Primary constructors
+
+```
+```

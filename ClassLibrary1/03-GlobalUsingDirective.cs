@@ -2,4 +2,4 @@
 global using System.Linq;
 global using System.IO;
 global using System.Text;
-global using ConsoleApp1;
+global using CodeSamples;
